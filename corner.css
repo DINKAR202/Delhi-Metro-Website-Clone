@@ -1,0 +1,25 @@
+.outer{
+    height: 100px;
+    width: 200px;
+    margin-top: 300px;
+    margin-left: 500px;
+    overflow: hidden;
+    background-color: yellow;
+    border-radius: 10px 0px 0px 0px ;
+}
+.inner{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    overflow: hidden;
+    /* position: absolute; */
+    border-radius: 10px 0px 0px 0px ;
+}
+.corner{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    rotate: 45deg;
+    margin-top: -15px;
+    margin-left: -15px;
+}
